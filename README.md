@@ -21,7 +21,7 @@ A very simple Graphviz Java API.
 		dot.edge("1", "2");
 		dot.edge("1", "3");
 		
-		dot.redner("split_workflow");
+		dot.render("split_workflow");
 
 ```
 

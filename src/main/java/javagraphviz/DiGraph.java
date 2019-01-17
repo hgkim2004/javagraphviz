@@ -52,12 +52,12 @@ public class DiGraph {
         edge_list.add(e);
     }
     
-    public void redner(String title)
+    public void render(String title)
     {
-        redner(title, false);
+        render(title, false);
     }
     
-    public void redner(String title, Boolean view)
+    public void render(String title, Boolean view)
     {
         String tmpFilename = "tempfile";
 //      try {

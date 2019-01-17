@@ -19,6 +19,6 @@ public class App
         
 //      System.out.println(dot.toString());
         
-        dot.redner("split_workflow");
+        dot.render("split_workflow");
     }
 }
