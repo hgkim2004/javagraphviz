@@ -5,6 +5,7 @@ A very simple Graphviz Java API.
 ## Requirements
 
 * Java 1.5+
+* Maven (https://maven.apache.org/)
 * Graphviz (www.graphviz.org/)
 
 ## Quick Start
@@ -25,3 +26,10 @@ A very simple Graphviz Java API.
 ```
 
 ##### Result
+![Example 1](https://github.com/hgkim2004/javagraphviz/blob/master/split_workflow.png)
+
+## compile and run
+```bash
+mvn clean dependency:copy-dependencies package
+java -classpath target/javagraphviz-0.0.1-SNAPSHOT.jar:target/dependency/commons-exec-1.3.jar javagraphviz.App
+```
