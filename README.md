@@ -5,7 +5,7 @@ A very simple Graphviz Java API.
 ## Requirements
 
 * Java 1.5+
-* Graphviz [Graphviz | Graphviz - Graph Visualization Software](www.graphviz.org/)
+* Graphviz(www.graphviz.org/)
 
 ## Quick Start
 
